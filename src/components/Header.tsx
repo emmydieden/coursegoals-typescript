@@ -9,7 +9,6 @@ type HeaderProps = {
 }
 
 export default function Header({image, children}: HeaderProps) {
-    console.log(image.alt, children)
   return (
     <header>
       <img src={image.src} alt={image.alt} />
